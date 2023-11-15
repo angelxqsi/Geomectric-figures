@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Geometric Figures</title>
+</head>
+
+<body>
+    <h1 class="h1">Geometric Figures</h1>
+    <div class="image-container">
+        <figure class="figure-margin">
+            <img src="img/cuadrado.png" alt="">
+        </figure>
+        <figure class="figure-margin2">
+            <img src="img/circulo.png" alt="">
+        </figure>
+        <figure class="figure-margin3">
+            <img src="img/triangulo_sinfondo.png" alt="">
+        </figure>
+    </div>
+
+    <div class="container">
+        <section id="squareSection" class="contenedores">
+            <h2 class="h2">Calculate the area and perimeter of a square</h2>
+            <form>
+                <div>
+                    <label for="squareInput">How long is each side?</label>
+                </div>
+                <input type="number" id="squareInput">
+                <p id="squarePerimeter"></p>
+                <p id="squareArea"></p>
+                <div class="button-container">
+                    <button type="button" onclick="squarePerimeterCalculate()" class="btn">Calculate perimeter</button>
+                    <button type="button" onclick="squareAreaCalculate()" class="btn">Calculate area</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="circleSection" class="contenedores">
+            <h2 class="h2">Calculate the area and circumference of a circle</h2>
+            <form>
+                <div>
+                    <label for="circleInput">What is the radius?</label>
+                </div>
+                <input type="number" id="circleInput">
+                <p id="circleCircumference"></p>
+                <p id="circleArea"></p>
+                <div class="button-container">
+                    <button type="button" onclick="circleCircumferenceCalculate()" class="btn">Calculate circumference</button>
+                    <button type="button" onclick="circleAreaCalculate()" class="btn">Calculate area</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="triangleSection" class="contenedores">
+            <h2 class="h2">Calculate the area and perimeter of a triangle</h2>
+            <form>
+                <div class="form3">
+                    <div class="input-separator">
+                        <label for="triangleSide1">Length of side 1:</label>
+                        <input type="number" id="triangleSide1">
+                    </div>
+                    <div class="input-separator">
+                        <label for="triangleSide2">Length of side 2:</label>
+                        <input type="number" id="triangleSide2">
+                    </div>
+                    <div class="input-separator">
+                        <label for="triangleBase">Length of the base:</label>
+                        <input type="number" id="triangleBase">
+                    </div>
+                    <div class="input-separator">
+                        <label for="triangleHeight">Triangle height...:</label>
+                        <input type="number" id="triangleHeight">
+                    </div>
+                </div>
+                <p id="trianglePerimeter"></p>
+                <p id="triangleArea"></p>
+                <div class="button-container">
+                    <button type="button" onclick="trianglePerimeterCalculate()" class="btn">Calculate perimeter</button>
+                    <button type="button" onclick="triangleAreaCalculate()" class="btn">Calculate area</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">Footer Content</footer>
+    <script src="java/script.js"></script>
+</body>
+
+</html>
+
+
+
