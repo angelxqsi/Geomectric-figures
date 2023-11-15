@@ -38,7 +38,7 @@ body {
 }
 
 .contenedores {
-    background-color: rgb(13, 35, 73);
+    background-color: rgb(78, 10, 67);
     color: rgb(255, 255, 255);
     width: 400px; 
     height: 500px;
@@ -71,7 +71,7 @@ input[type="number"] {
 
 /* Estilos de botones */
 .btn {
-    background-color: rgb(5, 240, 248);
+    background-color: rgb(247, 123, 241);
     color: rgb(0, 0, 0);
     border: 0;
     padding: 0.7rem 1.4rem;
